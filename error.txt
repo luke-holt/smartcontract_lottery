@@ -1,0 +1,27 @@
+PS E:\fcc_course\smartcontract-lottery> brownie compile 
+INFO: Could not find files for the given pattern(s). 
+Brownie v1.17.1 - Python development framework for Ethereum 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\_cli\__main__.py", line 64, in main     
+    importlib.import_module(f"brownie._cli.{cmd}").main() 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\_cli\compile.py", line 50, in main      
+    proj = project.load() 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 751, in load     
+    return Project(name, project_path) 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 183, in __init__ 
+    self.load() 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 238, in load     
+    self._compile(changed, self._compiler_config, False) 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 90, in _compile  
+    _install_dependencies(self._path) 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 757, in _install_dependencies 
+    install_package(package_id) 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 779, in install_package 
+    return _install_from_github(package_id) 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 841, in _install_from_github 
+    download_url = _get_download_url_from_tag(org, repo, version, headers) 
+  File "C:\Users\Luke\.local\pipx\venvs\eth-brownie\lib\site-packages\brownie\project\main.py", line 904, in _get_download_url_from_tag 
+    raise ConnectionError(msg) 
+ConnectionError: Status 404 when getting package versions from Github: 'Not Found' 
+Missing or forbidden. 
+If this issue persists, generate a Github API token and store it as the environment variable `GITHUB_TOKEN`: 
+https://github.blog/2013-05-16-personal-api-tokens/
