@@ -6,9 +6,8 @@ https://www.youtube.com/watch?v=M576WGiDBdQ
 ***************************
 
 OpenZepplin bug:
-I am currently stuck at ~6:34:48. Timestamp: https://www.youtube.com/watch?v=M576WGiDBdQ&t=22260s
-
-The error message is in "error.txt".
+Was not a bug. It was a typo. 
+This is fine. I'm fine.
 
 ***************************
 
